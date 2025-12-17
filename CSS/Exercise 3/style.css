@@ -1,0 +1,66 @@
+.parent {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 8px;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+    color: grey;
+    /* background-color: white; */
+}
+
+img {
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+span {
+    border: 1px solid grey;
+    margin: 15px;
+    margin-right: 0px;
+    padding: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 20px;
+    /* background-color: white; */
+}
+
+.lake {
+    margin: 5px;
+}
+
+h2 {
+    text-transform: capitalize;
+    margin-left: 15px;
+    color: black;
+    /* background-color: white; */
+    font-size: e;
+}
+
+p {
+    margin: 15px;
+    font-family: "Baloo Bhai 2", poppins, sans-serif;
+    /* background-color: white; */
+    font-size: larger;
+    line-height: 25px;
+    font-weight: 450;
+}
+
+button {
+    font: 900;
+    position: relative;
+    left: 29%;
+    border-radius: 40px;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(144, 210, 237, 0.473);
+    color: rgb(66, 148, 248);
+    font-weight: 700;
+    border: none;
+    font-size: 13px;
+    letter-spacing: 0px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /*universal selector*/
+        * {
+            background-color: lightpink;
+        }
+        /* Element Selector */
+        h1 {
+            color: blue;
+        }
+        /* Class Selector */
+        .red {
+            background-color: red;
+        }
+        /* ID Selector */
+        #green {
+            background-color: green;
+        }
+        /* Child Selector */
+        div > p {
+            background-color: yellow;
+        }
+        /* Descendant Selector */
+        div p {
+            font-size: 20px;
+        }
+        /* Pseudo Selector */
+        a:hover {
+            background-color: black;
+        }
+        a:visited {
+            color: green;
+        }
+        a:link {
+            color: blue;
+        }
+        a:active {
+            color: yellow;
+        }
+        p:first-child {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello</h1>
+    <div class="red">
+        I am good
+    </div>
+    <div id="green">
+        How about you?
+    </div>
+    <div>
+        <p>Are you okay?</p>
+    </div>
+    <div>
+        <section>
+            <p>This is a paragraph inside a section.</p>
+        </section>
+    </div>
+    <a href="https://www.google.com">Google</a>
+    <a href="www.facebook2.com">Facebook</a>
+    <main>
+        <p>Heyy</p>
+        <p>Heyy</p>
+    </main>
+</body>
+</html>

@@ -1,0 +1,48 @@
+@keyframes new {
+  from {
+    background-color: blue;
+  }
+  to {
+    background-color: yellow;
+    transform: translate(50%, 50%);
+  }
+}
+@keyframes new2 {
+  0% {
+    background-color: green;
+  }
+  20% {
+    background-color: blue;
+  }
+  40% {
+    background-color: yellow;
+  }
+  60% {
+    background-color: orange;
+  }
+  80% {
+    background-color: red;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+.container {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  animation-name: new;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: reverse; */
+  animation-direction: alternate-reverse;
+  /* animation-play-state: paused; */
+  animation: new 2s ease-in 1s 5 alternate-reverse,
+    new2 5s linear 0s 5 normal;
+  animation-fill-mode: forwards;
+}

@@ -1,0 +1,18 @@
+img{
+    width: 500px;
+}
+.img1{
+    /* filter: blur(10px); */
+    filter: contrast(1.2);
+    filter: drop-shadow(16px 16px 20px black)
+}
+.img2{
+    /* filter: grayscale(100%); */
+    filter: brightness(150%) hue-rotate(50deg) ;
+    filter: invert(1);
+}
+.img3{
+    /* filter: sepia(100%);
+    filter: invert(100%); */
+    filter: saturate(200%) opacity(70%);
+}

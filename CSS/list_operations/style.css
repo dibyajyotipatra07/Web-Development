@@ -1,0 +1,11 @@
+nav ul li {
+    list-style: devanagari;
+    list-style-type: "❤️";
+    /* list-style-position: inside; */
+    background-color: lightgreen;
+    border: 2px solid black;
+    /* list-style-image: url(xyz.png); */
+}
+ul > li {
+    list-style: none;
+}

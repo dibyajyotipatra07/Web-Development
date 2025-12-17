@@ -1,0 +1,38 @@
+# Node
+node_modules/
+
+# Build folders
+dist/
+build/
+.out/
+
+# Archives & executables
+*.zip
+*.rar
+*.7z
+*.exe
+*.msi
+
+# Media files (large)
+*.mp4
+*.mkv
+*.avi
+*.mov
+
+# Images (optional – keep if needed)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# Audio
+*.mp3
+*.wav
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

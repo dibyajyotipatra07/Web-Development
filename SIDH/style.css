@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: figtree;
+  box-sizing: border-box;
+}
+.nav1 {
+  background-color: #333333;
+  color: #bdbdbd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.nav1 .india {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+}
+.nav1 .navs {
+  font-size: 13px;
+}
+.nav1 ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+.nav1 li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+li span {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 6px;
+}
+.navbar .top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  width: 78vw;
+  margin: auto;
+}
+.navbar .top-nav .left {
+  display: flex;
+  /* align-items: center; */
+}
+.img2{
+    display: flex;
+  align-items: center;
+}
+.navbar .top-nav .left span {
+  padding: 0 7px;
+}
+.navbar .top-nav .right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.right button{
+    border: none;
+    border-radius: 8px;
+    
+    font-weight: 700;
+}
+.right .dash{
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+    padding: 6px 15px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.right .register{
+    background-color: #c25700;
+    padding: 13px 15px;
+    color: white;
+}
+.right .login{
+    background-color: transparent;
+    padding: 13px 15px;
+    color: rgb(194, 87, 0);
+    border: 1px solid rgb(194, 87, 0);
+}
+
+.searchbox{
+    display: flex;
+    align-items: center;
+
+}
+.search {
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  padding: 8px 10px;
+  padding-right: 115px;
+  
+}
+.search input {
+  border: none;
+  font-size: 16px;
+}
+
+.navbar .bottom-navbar{
+    padding: 10px;
+    width: 77vw;
+    margin: auto;
+}
+
+.navbar .bottom-navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;   
+    font-weight: 400;
+    color: #525252;
+    font-size: 14px;
+}

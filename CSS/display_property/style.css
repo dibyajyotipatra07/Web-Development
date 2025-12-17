@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    border: 2px solid #0000ff;
+    display: inline-block;
+    padding: 45px;
+    margin: 35px;
+}
+
+.box1 {
+    /* display: none; */
+    /* visibility: hidden; */
+    display: flex;
+    justify-content: center;
+}
+span{
+    display: block;
+}

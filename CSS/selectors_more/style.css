@@ -1,0 +1,48 @@
+/* .box:first-child{
+    background-color: red;
+} */
+
+/* .box:first-child:first-line{
+    color: white;
+} */
+
+/* .boxes *{
+    border: 2px solid black;
+} */
+
+.box::first-letter{
+    color: blue;
+}
+
+/* .box, [data-color="primary"]{
+    margin-top: 20px;
+    padding: 20px;
+} */
+
+/* .box:nth-child(odd){
+    background-color: aqua;
+}
+
+.box:nth-last-child(2){
+    background-color: green;
+} */
+.boxes::before{
+    content: "Hello";
+    color: blue;
+}
+.boxes::after{
+    content: "bye";
+    color: red;
+}
+::selection{
+    color: white;
+    background-color: black;
+}
+.box::first-letter{
+    color: peru;
+    font-size: xx-large;
+}
+
+input::placeholder{
+    color: gray;
+}

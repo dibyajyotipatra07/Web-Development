@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+:root{
+    --main-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Arial, sans-serif';
+    --defpadding: 20px;
+    --defop:0.4;
+}
+ul{
+    display: flex;
+}
+
+ul li:first-child{
+    margin-left: 0;
+    --secondary-color: #9199a0;
+    background-color: var(--secondary-color);
+}
+li{
+    list-style: none;
+    margin:0 15px;
+    /* padding: 34px; */
+    font-family: var(--font-family);
+    color: var(--main-color);
+}
+p{
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+}

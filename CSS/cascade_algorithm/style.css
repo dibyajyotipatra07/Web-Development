@@ -1,0 +1,22 @@
+div{
+    color: green;
+}
+
+.cred{
+    color: red;
+}
+/* complex selector */
+div.cpurple{
+    color: purple;
+}
+.yellow{
+    color: yellow;
+}
+
+p{
+    color: blue !important;
+}
+/* 1+10+10+10+10=41 specificity (ele,class,class,attributr,pseudo) */
+/* a.harryclass.rohan-class[href]:hover{
+    color: orange;
+} */

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "segoe UI";
+    background-color: #f0f0f0;
+    border: 2px solid #b3b2b2;
+    border-radius: 10px;
+    margin: 0px 200px;
+}
+.right ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.right ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 75px;
+}
+.right ul li span{
+    padding: 0px 5px;
+}

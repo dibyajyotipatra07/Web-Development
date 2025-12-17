@@ -1,0 +1,20 @@
+.container{
+    background-color: red;
+    width: 50vw;
+    height: 50vh;
+}
+.box{
+    background-color: white;
+    width: 5vw;
+    height: 5vh;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    /* transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1); */
+    transition-delay: 1s;
+}
+.translate{
+    transform: translateX(10vw) translateY(10vh);
+    background-color: blue;
+    scale: 2;
+}

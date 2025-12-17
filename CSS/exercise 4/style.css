@@ -1,0 +1,31 @@
+
+/* :root{
+    --main-color: black;
+    --text-color: white;
+    --third-color: rgb(46, 43, 43);
+} */
+:root{
+    --main-color: rgb(0, 170, 255);
+    --text-color: white;
+    --third-color: rgb(105, 181, 219);
+}
+body{
+    background-color: var(--third-color);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: var(--main-color);
+    padding: 12px;
+}
+ul li{
+    display: inline;
+    list-style: none;
+    padding: 23px;
+}
+ul li a{
+    color: var(--text-color);
+    text-decoration: none;
+}
