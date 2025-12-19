@@ -19,3 +19,8 @@ delete a[index]: delete the element, stored as empty, type is undefined, in simp
 .slice(start,end): return new array of slice items
 
 mfr:
+map((x) =>{statements}): take array and perform tasks on array elements and return it
+filter(): return that elemnets that satifies the condition
+reduce(): resuce array to a single value
+
+array.from("String): convert it to array
