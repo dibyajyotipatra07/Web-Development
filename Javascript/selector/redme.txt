@@ -1,0 +1,15 @@
+getElementsByClassName: select the preferred class
+getElementById: select the preferred Id
+
+querySelector: select 1st matched
+querySelectorAll: select all matched in a list-
+getElementByTagName: search elements by tag name
+
+matches
+returns true or false if matched with the slector
+
+closest
+returns the closest selector in ancestors else returns null
+
+contains
+if it contains the given returns true
